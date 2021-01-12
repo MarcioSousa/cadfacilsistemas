@@ -7,7 +7,7 @@ import { orange, lightBlue, blue, deepOrange} from '@material-ui/core/colors'
 import CssBaseline from '@material-ui/core/CssBaseline'
 
 /**Meus imports */
-//import Rotas from './rotas'
+import Rotas from './rotas'
 
 export default function App(){
     const temaDark = true
@@ -29,7 +29,7 @@ export default function App(){
     return(
         <MuiThemeProvider theme={theme}>
             <CssBaseline/>
-            ESTE É UMA PÁGINA DE TESTE
+            <Rotas/>
         </MuiThemeProvider>
     )
 
